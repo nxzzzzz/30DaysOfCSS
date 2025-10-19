@@ -3,15 +3,22 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #EFC1CE;
+	background-color: #2f00ff;
 	perspective: 200px;
+}
+
+span {
+	font-size: 40px;
+	text-align: center;
+	margin: 30px;
+	color: #ffffff;
 }
 
 .loading {
 	width: 100px;
 	height: 100px;
   margin-right: 20px;
-	background-color: #A1458B;
+	background-color: #ffffff;
 	border-radius: 50px;
 	animation: loading 2s linear infinite;
 }
